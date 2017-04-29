@@ -10,7 +10,7 @@ var app = express();
 // Sets our port
 var PORT = process.env.PORT || 3000; 
 // BodyParser makes it easy for our server to interpret data sent to it.
-// The code below is pulles from Stack Overflow
+// The code below is pulled from Stack Overflow
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.text());
